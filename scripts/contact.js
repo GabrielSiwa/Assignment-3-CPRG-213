@@ -7,7 +7,6 @@ function thankyouMessage(){
     let contactPage = document.getElementById('contact-page');
 
     contactPage.innerHTML = "";
-    
     let thankyouMessage = document.createElement('p');
     thankyouMessage.textContent = "Thank you for your message!"
     thankyouMessage.style.fontSize = "24px";
